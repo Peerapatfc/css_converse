@@ -9,15 +9,13 @@
 
 .header-top {
     background-color: #EDEBEB;
+    border-bottom: none;
 }
 
 .container .magezon-builder .mgz-container {
     width: 100%;
 }
 
-.header-top {
-    border-bottom: none;
-}
 
 body {
     font-family: "Proxima Nova", Roboto, "Helvetica Neue", Arial, sans-serif;
