@@ -14,7 +14,11 @@
 .container .magezon-builder .mgz-container {
     width: 100%;
 }
-.header-container .header-top-r
+
+.header-top {
+    border-bottom: none;
+}
+
 body {
     font-family: "Proxima Nova", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
