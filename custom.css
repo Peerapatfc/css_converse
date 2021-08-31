@@ -1,0 +1,20 @@
+.logo-content .logo img {
+    max-width : 125px !important;
+    max-height: 15px !important;
+}
+
+.page-header .header-container {
+    background-color: #FFF;
+}
+
+.header-top {
+    background-color: #EDEBEB;
+}
+
+.container .magezon-builder .mgz-container {
+    width: 100%;
+}
+.header-container .header-top-r
+body {
+    font-family: "Proxima Nova", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
