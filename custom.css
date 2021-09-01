@@ -187,7 +187,7 @@
 }
 
 .mgz-video .mgz-video-embed-play img:hover {
-    transform: scale(1) translate(-50%, -50%);
+    transform: scale(2) translate(-50%, -50%);
 }
 
 a {
