@@ -9,14 +9,191 @@
 
 .header-top {
     background-color: #EDEBEB;
-    border-bottom: none;
+    border-bottom   : none;
 }
 
 .container .magezon-builder .mgz-container {
     width: 100%;
 }
 
+.header-bottom {
+    background-color: #FFF;
+}
+
+.desktop-menu .horizontal-block .sm_megamenu_menu>li>a {
+    color      : #000;
+    font-size  : 14px;
+    font-weight: 600;
+}
+
+.mgz-fa-angle-right:before {
+    content: '\f061';
+}
+
+.mgz-fa-angle-left:before {
+    content: '\f060';
+}
+
+.horizontal-block .custom-item-menu {
+    display: none;
+}
+
+.desktop-menu .horizontal-block {
+    float: none;
+    width: auto;
+}
+
+.header-container .block-search.search-pro .searchbox-cat {
+    display: none;
+}
+
+.header-container .block-search .field.search .input-text {
+    height: 50px;
+}
+
+.header-container .block-search .form.minisearch {
+    display: block;
+    width  : 100%;
+}
+
+.header-container .block-search .field.search .input-text {
+    background-color: #000;
+}
+
+.header-container .block-search .field.search {
+    display: block;
+}
+
+.header-container .block-search .actions {
+    display : block;
+    position: absolute;
+    right   : 0;
+    top     : 0;
+    height  : 50px;
+}
+
+.header-container .block-search .actions .action.search {
+    height: 50px;
+    width : 50px;
+}
+
+.mgz-carousel .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+    color           : #000;
+}
+
+
+.header-container .language-currency .switcher-language .heading-switcher {
+    color: #000;
+}
+
+.header-container .language-currency .dropdown-switcher {
+    display     : inline-block;
+    position    : relative;
+    top         : auto;
+    background  : transparent;
+    width       : auto;
+    padding     : 0;
+    min-width   : 0;
+    box-shadow  : none;
+    padding-left: 5px;
+}
+
+.header-container .language-currency .action-switcher {
+    padding-right: 5px;
+}
+
+.header-container .language-currency .action-switcher::after {
+    content         : "";
+    background-color: #000;
+    width           : 1px;
+    height          : 13px;
+    position        : absolute;
+    right           : 0;
+    top             : 50%;
+    transform       : translateY(-50%);
+}
+
+.header-container .language-currency .list-item li,
+.header-container .language-currency .list-item li:hover {
+    border          : none;
+    background-color: transparent;
+}
+
+.header-container .language-currency .switcher-content {
+    display: flex;
+}
+
+.header-container .language-currency .heading-switcher span:after {
+    display: none;
+}
+
+.header-container .language-currency .language .list-item>li {
+    min-width: 0;
+    margin   : 0;
+    width    : auto;
+    display  : inline-block;
+    padding  : 0;
+}
+
+.header-container .language-currency .switcher-language .list-item li a span {
+    background  : none;
+    padding-left: 0;
+}
+
+.header-container .language-currency .language .list-item {
+    margin    : 0;
+    display   : block;
+    background: none;
+}
+
+.header-container .language-currency .list-item li {
+    background-color: transparent;
+}
+
+.header-container .language-currency .switcher-language .heading-switcher,
+.header-container .language-currency .switcher-language .list-item li a span {
+    font-size     : 12px;
+    text-transform: uppercase;
+    font-weight   : 300;
+}
+
+.header-container .language-currency .switcher-language .heading-switcher:hover span,
+.header-container .language-currency .switcher-language .list-item li:hover a span {
+    text-decoration: underline;
+}
+
+.mgz-video .mgz-video-embed-play {
+    top      : 0;
+    left     : 0;
+    width    : 100%;
+    transform: translate(0);
+    height   : 100%;
+}
+
+.mgz-video .mgz-video-title {
+    top      : 0;
+    position : absolute;
+    left     : 25px;
+    font-size: 16px;
+}
+
+.mgz-video .mgz-video-embed-play img {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+    max-width: 133px;
+}
+
+.mgz-video .mgz-video-embed-play img:hover {
+    transform: scale(1) translate(-50%, -50%);
+}
+
+a {
+    color: #000;
+}
 
 body {
-    font-family: "Proxima Nova", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Proxima Nova", "Prompt", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
